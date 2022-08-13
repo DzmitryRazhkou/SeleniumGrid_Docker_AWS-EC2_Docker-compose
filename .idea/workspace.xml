@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="332dae13-078d-4494-ab38-7256b78d8c95" name="Changes" comment="Yml">
+    <list default="true" id="332dae13-078d-4494-ab38-7256b78d8c95" name="Changes" comment="docker-compose yml is renamed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/docker/SetupSeleniumGrid4.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/docker/SetupSeleniumGrid4.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/docker/docker-compose-v3_SeleniumGrid4.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/docker/docker-compose-v3_SeleniumGrid4.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DemoAutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DemoAutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +46,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/dzmitryrazhkou/Documents/Automation/SeleniumGrid_Docker_AWS-EC2_Docker-compose"
+    "last_opened_file_path": "/Users/dzmitryrazhkou/Documents/Automation/SeleniumGrid_Docker_AWS-EC2_Docker-compose/src/test/java/docker"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/dzmitryrazhkou/Documents/Automation/SeleniumGrid_Docker_AWS-EC2_Docker-compose/src/test/java/xml/singleTest.xml">
     <configuration name="TestO.p" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -66,8 +68,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/dzmitryrazhkou/Documents/Automation/SeleniumGrid_Docker_AWS-EC2_Docker-compose/src/test/java/xml/singleTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGrid_Docker_AWS-EC2_Docker-compose" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/xml/singleTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/dzmitryrazhkou/Documents/Automation/SeleniumGrid_Docker_AWS-EC2_Docker-compose/src/test/java/xml/singleTest.xml" />
         <item itemvalue="TestNG.TestO.p" />
       </list>
     </recent_temporary>
@@ -88,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660421200753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="docker-compose yml is ready">
+      <created>1660421765789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660421765789</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docker-compose yml is renamed">
+      <created>1660421884543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660421884543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yml" />
+    <MESSAGE value="docker-compose yml is ready" />
+    <MESSAGE value="docker-compose yml is renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose yml is renamed" />
   </component>
 </project>

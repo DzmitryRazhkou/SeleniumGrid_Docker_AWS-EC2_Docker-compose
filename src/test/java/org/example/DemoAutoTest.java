@@ -25,7 +25,7 @@ import java.util.List;
 public class DemoAutoTest {
     WebDriver driver;
     final static String url = "http://the-internet.herokuapp.com/";
-    final static String remote_AWS_EC2_Url = "http://204.236.191.158:4445";
+    final static String remote_AWS_EC2_Url = "http://13.52.181.238:4445";
     // The remote EC2 AWS would be different regarding instance (see Public IPv4 address + Selenium Hub port: 4445)
 
     @BeforeMethod
